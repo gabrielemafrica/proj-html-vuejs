@@ -1,10 +1,9 @@
 <script>
-import AppMenu from './AppMenu.vue';
-
 export default {
-  name: 'AppHeader',
-  components: {
-    AppMenu,
+  name: 'SingleVoiceMenu',
+
+  props: {
+    voince: String
   },
 }
 
