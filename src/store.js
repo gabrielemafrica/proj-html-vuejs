@@ -92,6 +92,29 @@ export const store = reactive(
                 title: 'Exclusive',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             }
+        ],
+
+        works: [
+            {
+                logo: '<i class="bi bi-pc-display"></i>',
+                numero: 3534,
+                content: 'planning applications'
+            },
+            {
+                logo: '<i class="bi bi-building"></i>',
+                numero: 896,
+                content: 'completed projects'
+            },
+            {
+                logo: '<i class="bi bi-people-fill"></i>',
+                numero: 172,
+                content: 'trained professionals'
+            },
+            {
+                logo: '<i class="bi bi-globe"></i>',
+                numero: 19,
+                content: 'international offices'
+            },
         ]
 
 

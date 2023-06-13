@@ -2,11 +2,13 @@
 import { store } from '../store';
 
 import SectionMainSchede from './SectionMainSchede.vue';
+import SectionMainParallasse from './SectionMainParallasse.vue';
 
 export default {
   name: 'AppContent',
   components: {
     SectionMainSchede,
+    SectionMainParallasse,
   },
   data() {
     return {
@@ -21,6 +23,7 @@ export default {
   <!-- sezione schede -->
   <SectionMainSchede />
   <!-- sezione parallasse -->
+  <SectionMainParallasse />
   <!-- sezione recent work -->
   <!-- sezione core values -->
   <!-- sezione latest news -->

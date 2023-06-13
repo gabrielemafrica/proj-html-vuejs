@@ -30,7 +30,7 @@ export default {
   border-radius: 15px;
   margin: 0 15px;
   color: rgb(117, 117, 117);
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   .immagine{
     height: 50px;
     width: 50px;
