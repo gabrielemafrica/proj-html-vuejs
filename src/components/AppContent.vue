@@ -3,12 +3,14 @@ import { store } from '../store';
 
 import SectionMainSchede from './SectionMainSchede.vue';
 import SectionMainParallasse from './SectionMainParallasse.vue';
+import SectionMainRecent from './SectionMainRecent.vue';
 
 export default {
   name: 'AppContent',
   components: {
     SectionMainSchede,
     SectionMainParallasse,
+    SectionMainRecent,
   },
   data() {
     return {
@@ -25,6 +27,7 @@ export default {
   <!-- sezione parallasse -->
   <SectionMainParallasse />
   <!-- sezione recent work -->
+  <SectionMainRecent />
   <!-- sezione core values -->
   <!-- sezione latest news -->
   <!-- sezione patners -->

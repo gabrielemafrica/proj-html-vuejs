@@ -22,16 +22,19 @@ export default {
 
 
   <section id="parallasse">
+  <!-- onda top -->
     <div class="wave">
       <img src="../assets/img/wave.svg" alt="wave">
     </div>
 
+<!-- ciclo elementi -->
     <div class="works d-flex justify-content-around align-items-center">
       <div v-for="(element, index) in store.works" :key="index">
         <SingleWork :work="element"/>
        </div>
     </div>
 
+<!-- onda bottom -->
     <div class="wave">
       <img src="../assets/img/wave2.svg" alt="wave">
     </div>

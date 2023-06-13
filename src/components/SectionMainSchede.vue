@@ -32,8 +32,8 @@ export default {
 
 <div id="schede-centro">
   <h5>Specialists In Modern Constriction</h5>
-  <div id="line"></div>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dignissimos dolorum iste nemo obcaecati impedit ad voluptatibus, doloremque consequuntur suscipit nesciunt eaque aliquam quam.</p>
+  <div class="line"></div>
+  <p class="sottotitolo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dignissimos dolorum iste nemo obcaecati impedit ad voluptatibus, doloremque consequuntur suscipit nesciunt eaque aliquam quam.</p>
 </div>
 
 <!--  schede bottom -->
@@ -72,22 +72,6 @@ export default {
   #schede-centro{
     padding-top: 100px;
 
-    h5{
-      font-size: 30px;
-      font-weight: lighter;
-    }
-    #line{
-      display: inline-block;
-      width: 15%;
-      border: 1px solid $color-primary;
-    }
-    p{
-      max-width: 50%;
-      margin: 20px auto;
-      margin-bottom: 60px;
-      font-size: 13px;
-      line-height: 200%;
-    }
   }
 
   #scheda-bottom{

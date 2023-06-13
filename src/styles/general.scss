@@ -67,6 +67,28 @@ button {
     }
 }
 
+//main
+
+main {
+    h5 {
+        font-size: 30px;
+        font-weight: lighter;
+    }
+
+    .line {
+        display: inline-block;
+        width: 15%;
+        border: 1px solid $color-primary;
+    }
+
+    p.sottotitolo {
+        max-width: 50%;
+        margin: 20px auto;
+        margin-bottom: 60px;
+        font-size: 13px;
+        line-height: 200%;
+    }
+}
 
 // footer
 footer {
