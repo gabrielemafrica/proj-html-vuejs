@@ -15,14 +15,22 @@ export default {
 
 <template>
   <section>
+  <!-- titolo -->
     <h4>latest tweets</h4>
+    <!-- container conatanuti -->
     <div class="container d-flex">
+
+    <!-- logo -->
       <div>
         <div class="logo-post">
           <img :src="store.tweets.logoURL" :alt="store.tweets.nome">
         </div>
       </div>
+
+  <!-- post -->
       <div class="post">
+
+      <!-- icone -->
         <i class="bi bi-twitter"></i>
         <i class="bi bi-heart"></i>
         <i class="bi bi-box-arrow-right"></i>
@@ -30,6 +38,8 @@ export default {
 
         <h5>{{ store.tweets.nome }}</h5>
         <h6>{{ store.tweets.nomeAsh }}</h6>
+
+        <!-- post che nel testo ha tag a -->
         <p v-html="store.tweets.post"></p>
         <div class="attachment">
           <img :src="store.tweets.imageURL" :alt="store.tweets.nome" class="img-fluid">
@@ -97,5 +107,5 @@ section{
     }
   }
 }
-// <p>{{ Object.keys(store.contacts)[0] }}</p>
+
 </style>

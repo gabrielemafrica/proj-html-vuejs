@@ -1,10 +1,12 @@
 <script>
 import SectionFooterTweets from './SectionFooterTweets.vue'
+import SectionFooterContact from './SectionFooterContact.vue'
 
 export default {
   name: 'AppFooter',
   components: {
     SectionFooterTweets,
+    SectionFooterContact
   },
 }
 
@@ -31,7 +33,7 @@ export default {
       <!-- seconda sezione -->
       <SectionFooterTweets />
       <!-- terza sezione -->
-
+      <SectionFooterContact />
       <!-- quarta sezione -->
       <section id="where">
         <h4>find us</h4>
@@ -68,7 +70,7 @@ footer{
   padding-top: 50px;
   .container{
     section{
-      width: calc(100% / 4);
+      width: calc((100% / 4) - 30px);
     }
     #learn-more{
       color: gray;

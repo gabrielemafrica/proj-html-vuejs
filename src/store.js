@@ -36,14 +36,40 @@ export const store = reactive(
         }
         ,
 
-        contacts: {
-            'Corporate Location': '1600 Amphitheatre Parkway London WC1 1BA',
-            'Residential Location': '9521 Broadsberry Avenue paddington RC7 9ZA',
-            'telephone': '1.800.458.556 / 1.800.532.2112',
-            'mail': 'info@your-domin.com',
-            'ore': 'Monday - Friday: 9:00 AM - 6:00 PM',
-            'oreWe': 'Saturday - Sunday: 9:00 AM - 12:00 PM'
-        }
+        contacts: [
+
+            {
+                nome: 'Corporate Location',
+                valore: '1600 Amphitheatre Parkway London WC1 1BA',
+                img: '<i class="bi bi-globe2"></i>'
+            },
+            {
+                nome: 'Residential Location',
+                valore: '9521 Broadsberry Avenue paddington RC7 9ZA',
+                img: '<i class="bi bi-house-fill"></i>'
+            },
+            {
+                // nome: '',
+                valore: '1.800.458.556 / 1.800.532.2112',
+                img: '<i class="bi bi-telephone-fill"></i>'
+            },
+            {
+                // nome: '',
+                valore: 'info@your-domin.com',
+                img: '<i class="bi bi-envelope"></i>'
+            },
+            {
+                // nome: '',
+                valore: 'Monday - Friday: 9:00 AM - 6:00 PM',
+                img: '<i class="bi bi-clock"></i>'
+            },
+            {
+                // nome: '',
+                valore: 'Saturday - Sunday: 9:00 AM - 12:00 PM',
+                img: '<i class="bi bi-clock"></i>'
+            }
+
+        ]
 
 
 
