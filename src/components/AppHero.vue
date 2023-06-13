@@ -41,8 +41,8 @@ export default {
       <h1>BUILDING INSPRING SPACES</h1>
       <p>We Build Ispiring Residential &amp; Commercial Spaces</p>
       <div class="jumbobuttons">
-        <button type="button" class="gray">EXPLORE RECENT WORK</button>
-        <button type="button" class="yellow">GET A QUOTE TODAY</button>
+        <button type="button" class="gray big">EXPLORE RECENT WORK</button>
+        <button type="button" class="yellow big">GET A QUOTE TODAY</button>
       </div>
 
     </div>
@@ -99,8 +99,6 @@ export default {
         font-size: 18px;
       }
       button{
-        font-size: 14px;
-        padding: 10px 20px;
         margin: 0 10px;
       }
     }

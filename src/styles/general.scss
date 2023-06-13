@@ -14,6 +14,7 @@ body {
     font-family: $main-font;
     color: $color-text;
     background-color: $bg-color-W;
+    font-weight: lighter;
 }
 
 ul {
@@ -58,6 +59,11 @@ button {
     &.yellow:hover {
         background-color: $color-second;
         color: white;
+    }
+
+    &.big {
+        font-size: 14px;
+        padding: 10px 20px;
     }
 }
 

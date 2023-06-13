@@ -69,6 +69,29 @@ export const store = reactive(
                 img: '<i class="bi bi-clock"></i>'
             }
 
+        ],
+
+        schede: [
+            {
+                logo: '<i class="bi bi-building"></i>',
+                title: 'Buildings',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            },
+            {
+                logo: '<i class="bi bi-arrow-repeat"></i>',
+                title: 'Renovate',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            },
+            {
+                logo: '<i class="bi bi-house-fill"></i>',
+                title: 'Construct',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            },
+            {
+                logo: '<i class="bi bi-truck"></i>',
+                title: 'Exclusive',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            }
         ]
 
 

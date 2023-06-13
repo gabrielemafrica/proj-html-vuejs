@@ -43,7 +43,9 @@ section{
 
   ul{
     margin: 0;
-
+    li{
+      margin-top: 15px;
+    }
   }
 }
 </style>
