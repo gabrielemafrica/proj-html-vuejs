@@ -2,10 +2,14 @@
 import { store } from './store';
 
 import AppHeader from './components/AppHeader.vue';
+import AppHero from './components/AppHero.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   components:{
     AppHeader,
+    AppHero,
+    AppFooter,
   },
   data() {
     return {
@@ -22,13 +26,18 @@ export default {
 <template>
 
   <!-- header -->
+  <AppHeader />
   <!-- main -->
+  <main>
+    <AppHero />
+  </main>
   <!-- footer -->
-
+  <AppFooter />
 
 </template>
 
 <style lang="scss">
 @use './styles/general.scss' as *;
+@use './styles/partials/variables' as *;
 
 </style>
