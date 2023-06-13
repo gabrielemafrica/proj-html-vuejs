@@ -89,5 +89,9 @@ export default {
       line-height: 200%;
     }
   }
+
+  #scheda-bottom{
+
+  }
 }
 </style>
