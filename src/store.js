@@ -75,22 +75,22 @@ export const store = reactive(
 
         schede: [
             {
-                logo: '<i class="bi bi-building"></i>',
+                foto: '<i class="bi bi-building"></i>',
                 title: 'Buildings',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             },
             {
-                logo: '<i class="bi bi-arrow-repeat"></i>',
+                foto: '<i class="bi bi-arrow-repeat"></i>',
                 title: 'Renovate',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             },
             {
-                logo: '<i class="bi bi-house-fill"></i>',
+                foto: '<i class="bi bi-house-fill"></i>',
                 title: 'Construct',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             },
             {
-                logo: '<i class="bi bi-truck"></i>',
+                foto: '<i class="bi bi-truck"></i>',
                 title: 'Exclusive',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             }
@@ -98,49 +98,68 @@ export const store = reactive(
 
         works: [
             {
-                logo: '<i class="bi bi-pc-display"></i>',
+                foto: '<i class="bi bi-pc-display"></i>',
                 title: 3534,
                 content: 'planning applications'
             },
             {
-                logo: '<i class="bi bi-building"></i>',
+                foto: '<i class="bi bi-building"></i>',
                 title: 896,
                 content: 'completed projects'
             },
             {
-                logo: '<i class="bi bi-people-fill"></i>',
+                foto: '<i class="bi bi-people-fill"></i>',
                 title: 172,
                 content: 'trained professionals'
             },
             {
-                logo: '<i class="bi bi-globe"></i>',
+                foto: '<i class="bi bi-globe"></i>',
                 title: 19,
                 content: 'international offices'
             },
         ],
         core: [
             {
-                logo: '<i class="bi bi-house-fill"></i>',
+                foto: '<i class="bi bi-house-fill"></i>',
                 title: 'Great Services',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             },
             {
-                logo: '<i class="bi bi-gear"></i>',
+                foto: '<i class="bi bi-gear"></i>',
                 title: 'Highest Standards',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             },
             {
-                logo: '<i class="bi bi-people-fill"></i>',
+                foto: '<i class="bi bi-people-fill"></i>',
                 title: 'Professional Team',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             },
             {
-                logo: '<i class="bi bi-lightbulb"></i>',
+                foto: '<i class="bi bi-lightbulb"></i>',
                 title: 'Creative Solutions',
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             }
         ],
-
+        news: [
+            {
+                foto: '<img src="../../public/blog-post-134132600-400x241.jpg" alt="news">',
+                title: "Redeveloping Florida's Remote Southern Coast",
+                data: 'December 7th, 2015',
+                content: 'Quisquam dicta totam eos. Necessiticta totam eosatibicta totam eoss culpa earum optio ab et expliicta totam eoscabo aliquam odiicta totam eoso ducimus dolore voluptatem.'
+            },
+            {
+                foto: '<img src="../../public/blog-post-92486644-400x241.jpg" alt="news">',
+                title: "How We Manage Large Construction Projects",
+                data: 'December 7th, 2015',
+                content: 'Quisquam dicta totam eoicta totam eoss. Necicta totam eosessitaicta totam eostibicta totam eosus culpa earum optio ab et explicabo aliicta totam eosquam odio ducimus dolore voluptatem.'
+            },
+            {
+                foto: '<img src="../../public/blog-post-332773904-400x241.jpg" alt="news">',
+                title: "Future proofing a modern home",
+                data: 'December 6th, 2015',
+                content: 'Quisquam dicta totam eos. Necessitaticta totam eosibus cicta totam eosulpa earum optio ab et expliicta totam eoscabo aliquicta totam eosam odio ducimus dolore voluptatem.'
+            }
+        ],
 
 
 

@@ -71,7 +71,7 @@ export default {
 
 <!-- onda bottom -->
     <div class="wave">
-      <img src="../assets/img/wave2.svg" alt="wave">
+      <img src="../assets/img/wave4.svg" alt="wave">
     </div>
     
   </section>

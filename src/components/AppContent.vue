@@ -6,6 +6,7 @@ import SectionMainParallasse from './SectionMainParallasse.vue';
 import SectionMainRecent from './SectionMainRecent.vue';
 import SectionMainCore from './SectionMainCore.vue';
 import SectionOwners from './SectionOwners.vue';
+import SectionMainNews from './SectionMainNews.vue';
 
 export default {
   name: 'AppContent',
@@ -15,6 +16,7 @@ export default {
     SectionMainRecent,
     SectionMainCore,
     SectionOwners,
+    SectionMainNews,
   },
   data() {
     return {
@@ -37,6 +39,7 @@ export default {
   <!-- sezione Owners -->
   <SectionOwners />
   <!-- sezione latest news -->
+  <SectionMainNews />
   <!-- sezione patners -->
   <!-- sezione bulding -->
 </template>

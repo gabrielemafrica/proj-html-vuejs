@@ -13,8 +13,9 @@ export default {
 
 <template>
   <div class="carta">
-    <div class="immagine" v-html="card.logo"></div>
+    <div class="immagine" v-html="card.foto"></div>
     <h5>{{ card.title }}</h5>
+    <small v-if="card.data">{{ card.data }}</small>
     <p>{{ card.content }}</p>
   </div>
 
