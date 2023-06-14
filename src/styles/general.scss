@@ -41,6 +41,25 @@ section a {
     color: green;
 }
 
+.section-title {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    // bordo inferiore
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 10%;
+        height: 2px;
+        background-color: $color-primary;
+
+    }
+}
+
 // bottoni
 button {
     text-transform: uppercase;

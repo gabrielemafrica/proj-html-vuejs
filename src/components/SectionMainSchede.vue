@@ -31,15 +31,14 @@ export default {
   <!-- parte centrale -->
 
 <div id="schede-centro">
-  <h5>Specialists In Modern Constriction</h5>
-  <div class="line"></div>
+  <h5 class="section-title">Specialists In Modern Constriction</h5>
   <p class="sottotitolo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dignissimos dolorum iste nemo obcaecati impedit ad voluptatibus, doloremque consequuntur suscipit nesciunt eaque aliquam quam.</p>
 </div>
 
 <!--  schede bottom -->
 
 <div class="container d-flex justify-content-between" id="schede-bottom">
-  <div class="cheda" v-for="(scheda, index) in store.schede" :key="index">
+  <div class="scheda" v-for="(scheda, index) in store.schede" :key="index">
     <SingleScheda :card= "scheda"/>
   </div>
 </div>
@@ -68,14 +67,8 @@ export default {
       left: 50%;
     }
   }
-
   #schede-centro{
     padding-top: 100px;
-
-  }
-
-  #scheda-bottom{
-
   }
 }
 </style>

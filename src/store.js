@@ -4,6 +4,8 @@ export const store = reactive(
     {
         selectedIdx: 0,
 
+        owner1Speaking: true,
+
         vociMenu: [
             {
                 "nome": 'home',
@@ -97,25 +99,49 @@ export const store = reactive(
         works: [
             {
                 logo: '<i class="bi bi-pc-display"></i>',
-                numero: 3534,
+                title: 3534,
                 content: 'planning applications'
             },
             {
                 logo: '<i class="bi bi-building"></i>',
-                numero: 896,
+                title: 896,
                 content: 'completed projects'
             },
             {
                 logo: '<i class="bi bi-people-fill"></i>',
-                numero: 172,
+                title: 172,
                 content: 'trained professionals'
             },
             {
                 logo: '<i class="bi bi-globe"></i>',
-                numero: 19,
+                title: 19,
                 content: 'international offices'
             },
-        ]
+        ],
+        core: [
+            {
+                logo: '<i class="bi bi-house-fill"></i>',
+                title: 'Great Services',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            },
+            {
+                logo: '<i class="bi bi-gear"></i>',
+                title: 'Highest Standards',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            },
+            {
+                logo: '<i class="bi bi-people-fill"></i>',
+                title: 'Professional Team',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            },
+            {
+                logo: '<i class="bi bi-lightbulb"></i>',
+                title: 'Creative Solutions',
+                content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
+            }
+        ],
+
+
 
 
 

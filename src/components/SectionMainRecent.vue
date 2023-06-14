@@ -15,8 +15,7 @@ export default {
   <section id="recent">
 
     <!-- intestazione -->
-    <h5>Explore Recent Work</h5>
-    <div class="line"></div>
+    <h5 class="section-title">Explore Recent Work</h5>
     <p class="sottotitolo">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dignissimos dolorum iste nemo obcaecati impedit ad voluptatibus, doloremque consequuntur suscipit nesciunt eaque aliquam quam.
     </p>

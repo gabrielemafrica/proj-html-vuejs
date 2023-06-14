@@ -1,13 +1,13 @@
 <script>
 import { store } from '../store';
-import SingleWork from './SingleWork.vue';
+import SingleScheda from './SingleScheda.vue';
 
 
 
 export default {
   name: 'SectionMainParallasse',
   components: {
-    SingleWork,
+    SingleScheda,
   },
   data() {
     return {
@@ -30,7 +30,7 @@ export default {
 <!-- ciclo elementi -->
     <div class="works d-flex justify-content-around align-items-center">
       <div v-for="(element, index) in store.works" :key="index">
-        <SingleWork :work="element"/>
+        <SingleScheda :card="element"/>
        </div>
     </div>
 

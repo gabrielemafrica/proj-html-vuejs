@@ -4,6 +4,8 @@ import { store } from '../store';
 import SectionMainSchede from './SectionMainSchede.vue';
 import SectionMainParallasse from './SectionMainParallasse.vue';
 import SectionMainRecent from './SectionMainRecent.vue';
+import SectionMainCore from './SectionMainCore.vue';
+import SectionOwners from './SectionOwners.vue';
 
 export default {
   name: 'AppContent',
@@ -11,6 +13,8 @@ export default {
     SectionMainSchede,
     SectionMainParallasse,
     SectionMainRecent,
+    SectionMainCore,
+    SectionOwners,
   },
   data() {
     return {
@@ -29,6 +33,9 @@ export default {
   <!-- sezione recent work -->
   <SectionMainRecent />
   <!-- sezione core values -->
+  <SectionMainCore />
+  <!-- sezione Owners -->
+  <SectionOwners />
   <!-- sezione latest news -->
   <!-- sezione patners -->
   <!-- sezione bulding -->
