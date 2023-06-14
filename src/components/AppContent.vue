@@ -8,6 +8,7 @@ import SectionMainCore from './SectionMainCore.vue';
 import SectionOwners from './SectionOwners.vue';
 import SectionMainNews from './SectionMainNews.vue';
 import SectionMainPartners from './SectionMainPartners.vue';
+import SectionMainBuilding from './SectionMainBuilding.vue';
 
 export default {
   name: 'AppContent',
@@ -19,6 +20,7 @@ export default {
     SectionOwners,
     SectionMainNews,
     SectionMainPartners,
+    SectionMainBuilding,
   },
   data() {
     return {
@@ -45,6 +47,7 @@ export default {
   <!-- sezione patners -->
   <SectionMainPartners />
   <!-- sezione bulding -->
+  <SectionMainBuilding />
 </template>
 
 <style scoped lang="scss">

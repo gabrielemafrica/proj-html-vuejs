@@ -66,7 +66,7 @@ export default {
 
 footer{
   background-color: $color-second;
-  border-top: 10px solid rgb(63, 63, 63);
+  border-top: 20px solid rgb(63, 63, 63);
   padding-top: 50px;
   .container{
     section{

@@ -73,6 +73,7 @@ section{
     padding-bottom: 30px;
     position: relative;
     i{
+      cursor: pointer;
       position: absolute;
       filter: opacity(0.5);
       &.bi-twitter{
@@ -91,6 +92,10 @@ section{
       &.h{
         right: 0;
         text-decoration: underline;
+      }
+      &:hover{
+        color: $color-primary;
+        filter: opacity(1);
       }
     }
     

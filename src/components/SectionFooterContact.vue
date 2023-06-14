@@ -45,6 +45,11 @@ section{
     margin: 0;
     li{
       margin-top: 15px;
+      cursor: pointer;
+      &:hover{
+        color: $color-primary;
+        text-decoration: underline;
+      }
     }
   }
 }
