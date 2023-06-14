@@ -16,16 +16,38 @@ export default {
   data() {
     return {
       store,
+      play: '',
+      isLoading: true,
     }
   },
   methods: {
-    
+    autoPlay(){
+      this.play = setInterval(() => {
+        this.store.owner1Speaking = !this.store.owner1Speaking;
+      }, 3000);
+    }
+  },
+  mounted() {
+    this.autoPlay();
+
+    // gestione schermata loading
+    this.isLoading = true;
+    window.addEventListener('load', () => {
+      this.isLoading = false;
+    })
   },
 }
 
 </script>
 
 <template>
+  <div v-if="isLoading" class="loading-screen">
+    <strong>Loading...</strong>
+    <div class="spinner-grow text-info" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  
+  </div>
 
   <!-- header -->
   <AppHeader />
@@ -42,5 +64,20 @@ export default {
 <style lang="scss">
 @use './styles/general.scss' as *;
 @use './styles/partials/variables' as *;
+
+.loading-screen{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  z-index: 100;
+  .visually-hidden{
+    font-size: 500px;
+  }
+}
+
 
 </style>

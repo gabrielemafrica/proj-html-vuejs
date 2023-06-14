@@ -2,6 +2,14 @@
 @use './variables' as *;
 
 //formattazione per file schede
+.carta {
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 10px 10px 5px #dedede;
+    }
+}
+
 #schede {
     .carta {
         padding: 20px 30px;
@@ -42,6 +50,11 @@
     .carta {
         color: $color-primary;
         text-align: center;
+
+        &:hover {
+            box-shadow: none;
+            color: white;
+        }
 
         .immagine {
 
@@ -85,6 +98,10 @@
     .carta {
         max-width: 200px;
 
+        &:hover {
+            box-shadow: none;
+            color: $color-primary;
+        }
 
         .immagine {
             height: 100px;

@@ -68,6 +68,9 @@ footer{
   background-color: $color-second;
   border-top: 20px solid rgb(63, 63, 63);
   padding-top: 50px;
+  .map{
+    cursor: pointer;
+  }
   .container{
     section{
       width: calc((100% / 4) - 30px);
