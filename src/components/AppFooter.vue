@@ -32,8 +32,10 @@ export default {
 
       <!-- seconda sezione -->
       <SectionFooterTweets />
+
       <!-- terza sezione -->
       <SectionFooterContact />
+
       <!-- quarta sezione -->
       <section id="where">
         <h4>find us</h4>
@@ -57,6 +59,7 @@ export default {
         </div>
       </div>
     </div>
+
   </footer>
 </template>
 
@@ -84,7 +87,8 @@ footer{
       }
     }
   }
-
+  
+// bottom
   .footer-bottom{
     margin-top: 50px;
     align-items: center;

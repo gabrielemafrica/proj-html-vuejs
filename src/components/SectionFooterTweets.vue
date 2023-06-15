@@ -15,22 +15,23 @@ export default {
 
 <template>
   <section>
-  <!-- titolo -->
+    <!-- titolo -->
     <h4>latest tweets</h4>
+
     <!-- container conatanuti -->
     <div class="container d-flex">
 
-    <!-- logo -->
+      <!-- logo -->
       <div>
         <div class="logo-post">
           <img :src="store.tweets.logoURL" :alt="store.tweets.nome">
         </div>
       </div>
 
-  <!-- post -->
+      <!-- post -->
       <div class="post">
 
-      <!-- icone -->
+        <!-- icone -->
         <i class="bi bi-twitter"></i>
         <i class="bi bi-heart"></i>
         <i class="bi bi-box-arrow-right"></i>
@@ -66,7 +67,6 @@ section{
       width: 100%;
       height: 100%;
       object-fit: cover;
-
     }
   }
   .post{
