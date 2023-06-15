@@ -9,8 +9,6 @@ export default {
 </script>
 
 <template>
-
-
   <section id="building">
     <div class="container d-flex align-items-center">
 
@@ -77,10 +75,6 @@ export default {
       }
     }
   }
-.call{
-
-}
-
 }
 
 </style>

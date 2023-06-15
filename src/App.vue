@@ -13,6 +13,7 @@ export default {
     AppFooter,
     AppContent
   },
+
   data() {
     return {
       store,
@@ -20,6 +21,7 @@ export default {
       isLoading: true,
     }
   },
+
   methods: {
     autoPlay(){
       this.play = setInterval(() => {
@@ -27,37 +29,44 @@ export default {
       }, 3000);
     }
   },
+
   mounted() {
     this.autoPlay();
 
     // gestione schermata loading
     this.isLoading = true;
     window.addEventListener('load', () => {
-      this.isLoading = false;
-    })
+      setTimeout(() => {
+        this.isLoading = false;
+
+      }, 3000);
+    });
   },
 }
-
 </script>
 
 <template>
+
+  <!-- loading -->
   <div v-if="isLoading" class="loading-screen">
     <strong>Loading...</strong>
     <div class="spinner-grow text-info" role="status">
       <span class="visually-hidden">Loading...</span>
     </div>
-  
   </div>
 
-  <!-- header -->
-  <AppHeader />
-  <!-- main -->
-  <main>
-    <AppHero />
-    <AppContent />
-  </main>
-  <!-- footer -->
-  <AppFooter />
+  <!-- pagina effettiva -->
+  <div v-else>
+    <!-- header -->
+    <AppHeader />
+    <!-- main -->
+    <main>
+      <AppHero />
+      <AppContent />
+    </main>
+    <!-- footer -->
+    <AppFooter />
+  </div>
 
 </template>
 

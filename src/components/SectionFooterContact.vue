@@ -15,7 +15,6 @@ export default {
     }
   },
 };
-
 </script>
 
 <template>
@@ -29,8 +28,7 @@ export default {
         <SingleContact :contact= "contatto"/>
       </li>
     </ul>
-
-
+    
   </section>
 </template>
 

@@ -8,7 +8,6 @@ export default {
     card: Object,
   },
 };
-
 </script>
 
 <template>
@@ -18,8 +17,6 @@ export default {
     <small v-if="card.data">{{ card.data }}</small>
     <p>{{ card.content }}</p>
   </div>
-
-
 </template>
 
 <style scoped lang="scss">

@@ -118,6 +118,7 @@ export const store = reactive(
                 content: 'international offices'
             },
         ],
+
         core: [
             {
                 foto: '<i class="bi bi-house-fill"></i>',
@@ -140,6 +141,7 @@ export const store = reactive(
                 content: 'Quisquam dicta totam eos. Necessitatibus culpa earum optio ab et explicabo aliquam odio ducimus dolore voluptatem.'
             }
         ],
+
         news: [
             {
                 foto: '<img src="../../public/blog-post-134132600-400x241.jpg" alt="news">',
